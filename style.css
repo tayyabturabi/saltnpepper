@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0f0f0f
+}
+
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+
+@font-face{ font-family: myfont1;
+src: url(assets/fonts/Apercu\ Regular.otf);}
+
+@font-face{ font-family: myfont2;
+src:url(assets/fonts/futurak.ttf);
+}
+
+@font-face{ font-family: myfont3;
+src: url(assets/fonts/Butler_Bold.otf);
+}
+
+
+
+
+/* navbar styling  */
+
+.header{
+width: 100%;
+height: auto;
+
+
+}
+.navbar {
+    width: 100%;
+    background: black;
+    height: 92px;
+}
+
+
+.logo img{
+    width: 150px;
+    height: auto;
+    margin-top:10px;
+    margin-left:20px;
+    float: left;
+    
+}
+
+.logo ul {
+    margin-left: 70px;
+    margin-top: 35px;
+    margin: right 400px; 
+    float:inline-start;
+    padding-right: 0px;
+    
+
+}
+.logo ul li {
+    /* width:100px; */
+    height: auto;
+   float: left;
+    list-style-type: none;
+    font-family: myfont1;
+    margin-left: 10px;
+    
+    
+    
+} 
+
+.logo ul li a{
+    font-family: myfont1;
+    font-size: 18px;
+    color:#ffffff;
+    text-decoration: none;
+    width: auto;
+
+}
+
+.logo ul li a:hover{
+
+    color:green;
+}
+
+.cartbox{
+  width:auto;
+  height: auto;
+  float:right;
+  padding-top: 10px;
+  padding-left: 30px;
+ 
+}
+
+.carticon1{
+    width: 40px;
+    height: 40px;}
+
+.carticon{
+    width: 80px;
+    height: 80px;
+
+}
+
+.cartbox tr td a { 
+    font-family: myfont1;
+    text-decoration: none;
+    border: 2px #ffffff solid;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;}
+
+.cartbox tr td a:hover{
+    background-color: red;
+} 
+
+.divhead{
+    padding-top: 70px;
+    
+}
+.cover > img{
+    width:100% ;
+}
+
+.section-1{
+    display: flex;
+    width: 50%;
+    padding-left: 120px;
+    
+
+
+    
+
+}
+.divm{
+    height: auto;
+    width: auto;
+    background: #ffffff;
+    margin:30px;
+   padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.divlink  {
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.divlink a {
+    font-family: myfont1;
+    text-decoration: none;
+    border: 2px #ffffff solid;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    
+}
+
+.divlink a:hover{
+
+    background-color: red;
+}
+
+    
+
+.divhead p {
+color:#ffffff;
+text-align: center;
+font-size: 30px;
+font-family: myfont1;
+
+}
+
+
+.sp-text{
+
+    font-family: myfont2;
+    font-size: 56px;
+    color: #ffffff;
+    }
+
+    .divsec2{
+        background-image: url(assets/img-s.webp);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color:rgb(15, 15, 15);
+        text-align: center;
+        padding-top: 40px;
+        margin-top:70px;
+        line-height: 50px;
+        height: 500px;
+        
+
+    }
+    .divsec2 h1{
+        font-family: myfont3;
+        color:#ffffff;
+        font-size: 36px;
+    }
+
+    .divsec2 p {
+     font-family: myfont1;
+     color: #ffffff; 
+     font-size: 16px;  
+    }
+    .divislam-text {
+        text-align: left;
+        float:left;
+        margin-top: 40px;
+        padding-left: 100px;
+
+    }
+
+    .divislam-img{
+        float:inline-end;
+        margin-top: 40px;
+        padding-right: 50px;
+    }
+
+    .dirlink a {
+        font-family: myfont1;
+        text-decoration: none;
+        border: 2px #ffffff solid;
+        border-radius: 20px;
+        padding: 10px 5px 10px 5px;
+        color: #ffffff;
+        
+    }
+    
+    .dirlink a:hover{
+    
+        background-color:green;
+    }
+    
+
+
+    .divsec3{
+        /* background-image: url(assets/img-s.webp);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color:rgb(15, 15, 15);
+        text-align: center; */
+        
+        margin-top:50px;
+        line-height: 50px;
+        height: 300px;}
+
+    
+    .divsec3 h1{
+        font-family: myfont3;
+        color:#ffffff;
+        font-size: 36px;
+    }
+
+    .divsec3 p {
+     font-family: myfont1;
+     color: #ffffff; 
+     font-size: 16px;  
+    }
+    
+    .divfsb-text {
+        text-align:left;
+        float:right;
+        margin-top: 40px;
+        padding-right: 100px;
+
+    }
+
+    .divfsb-img{
+        
+        float:left;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+
+
+    /* section4 */
+
+
+
+    .divsec4{
+        /* background-image: url(assets/img-s.webp);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color:rgb(15, 15, 15);
+        text-align: center; */
+        padding-top: 40px;
+        margin-top:70px;
+        line-height: 50px;
+        height: 350px;
+
+    }
+    .divsec4 h1{
+        font-family: myfont3;
+        color:#ffffff;
+        font-size: 36px;
+    }
+
+    .divsec4 p {
+     font-family: myfont1;
+     color: #ffffff; 
+     font-size: 16px;  
+    }
+    .divbhl-text {
+        text-align: left;
+        float:left;
+        margin-top: 40px;
+        padding-left: 100px;
+
+    }
+
+    .divbhl-img{
+        float:inline-end;
+        margin-top: 40px;
+        padding-right: 50px;
+    }
+
+    .container{
+        width: 100%;
+        padding-top: 30px;
+        text-align: center;
+        margin-top: 40px;
+        background-image: url(assets/back-img2.webp);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color:rgb(15, 15, 15)
+
+
+        
+       
+    }
+    
+    .expdiv{
+      
+        height: 400px;
+        line-height: 25px;
+        margin-left: 0px;
+        display: inline-block;
+        margin: 0px 5px;
+        margin-top: 25px;
+               
+    }
+
+    
+    .expdiv > img{
+        width: 350px;
+        height: 250px; 
+    }
+
+    .container> p {
+        
+            font-family: myfont2;
+            color: #ffffff; 
+            font-size: 52px; 
+    }
+
+
+    .container> p span {
+        
+        font-family: myfont3;
+        color: #ffffff; 
+        font-size: 48px; 
+}
+.expdiv-text h3{
+    font-family: myfont1;
+    color:rgb(255, 255, 255);
+
+}
+    
+    .sp2-text{
+        
+        font-family: myfont2;
+        color:rgb(255, 255, 255); 
+        font-size: 24px;
+        letter-spacing: 0.03em;
+}
+
+.expdiv-text small{
+        
+    font-family: myfont1;
+    color:rgb(255, 0, 0); 
+    font-size: 12px;
+    letter-spacing: 0.03em;}
+
+.expdiv-text P{
+    font-family: myfont1;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+   
+}
+
+.expdiv-text P a{
+    font-family: myfont1;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-decoration: none;
+   
+
+}
+.explink{
+    margin-top: 30px;
+}
+.explink a {
+    font-family: myfont1;
+    text-decoration: none;
+    border: 2px #ffffff solid;
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+    color: #ffffff;
+    
+    
+}
+
+.explink a:hover{
+
+    background-color:green;
+}
+
+.arrow i{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding:8px 8px 6px;
+    border-radius: 30px;
+    margin-left: 10PX;
+
+    transform: rotate(-37deg);
+}
+.expdiv-text p i {
+
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.location-card {
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 20px;
+    margin: auto;
+    margin-bottom: 32px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin:15px 15px;
+    letter-spacing: 0.03em;
+    line-height: 25px;
+}
+
+
+.loccard-text{
+        
+    font-family: myfont2;
+    color:rgb(0, 0, 0); 
+    font-size: 24px;
+    letter-spacing: 0.03em;
+}
+
+
+.location-card p{
+        
+    font-family: myfont1;
+    color:rgb(249, 10, 10); 
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.location-card h4{
+        font-family: myfont1;
+        color:rgb(0, 0, 0);
+        letter-spacing: 0.03em;
+    
+    }
+
+
+.location-card small{
+    font-family: myfont1;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    
+    }
+
+
+    .section-social h3{
+    font-family: myfont3;
+    color:rgb(255, 255, 255); 
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  
+   
+
+
+    }
+    .social-box{
+
+        width:230px;
+        height:233px;  
+        margin-top:50px;
+        display:inline-block;
+        margin:10px 25px;
+        
+
+
+    }
+
+    .social-box figure img{
+        width: 233px;
+        height:233x;
+    }
+
+    .section-8{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .section-social{
+        width: 90%;
+        margin: 0px auto;
+    } 
+
+
+
+
+
+
+
